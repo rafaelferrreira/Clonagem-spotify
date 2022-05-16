@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #172124;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* line height para juntar o criativo do marketing */
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #06cb44;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #203236;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #06cb44;
+    transition: 1s all;
+    color: white;
+
+}
+
+
+h1 {
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+span {
+    color: #06cb44;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+
+}
+
+img {
+    width: 600;
+    opacity: 0.5
+    
+    margin-bottom: 300px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 40%;
+    background-color:#06cb44;
+    color: white;
+    font-weight: bold;
+ 
+
+}
+
+form [type="submit"]:hover {
+cursor: pointer;
+background-color:#1d883f;
+transition: 0.6s all;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
